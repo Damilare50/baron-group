@@ -1,0 +1,191 @@
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+#navBar {
+    width: 75%;
+    background-color: lightgray;
+    font-size: small;
+}
+
+#navBar a {
+    color: black;
+    border-radius: 30px;
+}
+
+#navBar a:hover , #projects-va:hover {
+    background-color: navy;
+    color: white;
+}
+
+#header-text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#header-details {
+    background-color: rgb(7, 7, 12);
+}
+
+#header-details-btn, #header-details-btn a {
+    border-radius: 30px;
+    font-size: small !important;
+    font-weight: bold;
+    color: rgb(7, 7, 12) !important;
+}
+
+#header-details-btn:hover {
+    color: white !important;
+    background-color: rgb(7, 7, 12) !important;
+    border: white !important;
+}
+
+.project:hover {
+    background-color: rgb(7, 7, 12);
+    color: white;
+    border: none;
+}
+
+.project-btn {
+    border-radius: 30px;
+}
+
+.sponsor-images {
+    width: 150px;
+}
+
+#announcement-section {
+    background-image: url("../images/announcement-image.jpg");
+    background-size: cover;
+
+}
+
+#contact-section a {
+    border-radius: 30px;
+    background-color: navy;
+}
+
+#contact-section img {
+    max-width: 300px;
+}
+
+footer {
+    background-color: navy;
+}
+
+.portal {
+    border-radius: 30px;
+    border-width: 3px;
+}
+
+.footer-navs {
+    color: white;
+    font-size: larger;
+}
+
+.footer-navs:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: white;
+}
+
+.header-details {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 51, 102);
+    font-weight: bold;
+}
+
+#about-header img, 
+#what-we-do-header img, 
+#projects-header img, 
+#news-header img, 
+#contact-us-header img,
+#tenant-portal-header img,
+#investor-portal-login-header img,
+#investor-portal-header img {
+    opacity: 0.4;
+}
+
+.personnel-section-bg {
+    background-color: #dfdbdb;
+}
+
+.personnel-btn {
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.personnel-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.personnel-download-link {
+    text-decoration: underline;
+    color: black;
+}
+
+#projects .owl-carousel .owl-nav button {
+    outline: none;
+}
+
+#personnel .owl-carousel .owl-nav button.owl-prev span, 
+#personnel .owl-carousel .owl-nav button.owl-next span,
+#projects .owl-carousel .owl-nav button.owl-prev span,
+#projects .owl-carousel .owl-nav button.owl-next span,
+#testimonials .owl-carousel .owl-nav button.owl-prev span,
+#testimonials .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: navy;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+#personnel .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#personnel .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+
+#personnel .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#personnel .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+#personnel .owl-carousel .owl-nav button.owl-prev span:hover, 
+#personnel .owl-carousel .owl-nav button.owl-next span:hover,
+#projects .owl-carousel .owl-nav button.owl-prev span:hover,
+#projects .owl-carousel .owl-nav button.owl-next span:hover,
+#testimonials .owl-carousel .owl-nav button.owl-prev span:hover,
+#testimonials .owl-carousel .owl-nav button.owl-next span:hover {
+    border-color: black;
+    border-bottom-style: dotted;
+}
+
+.press-news .more-text{
+    display: none;
+}
+
+#map {
+    height: 500px;
+}
