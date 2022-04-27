@@ -47,7 +47,7 @@ $(document).ready(function(){
     var maxLength = 100;
 	$(".press-news-exp").each(function(){
 		var myStr = $(this).text();
-		if($.trim(myStr).length > maxLength){
+		if($.trim(myStr).length > maxLength) {
 			var newStr = myStr.substring(0, maxLength);
 			$(this).empty().html(newStr);
 			$(this).append(' <a href="#" class="read-more">read more...</a>');

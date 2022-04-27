@@ -44,7 +44,7 @@
 }
 
 #header-details-btn:hover {
-    color: white !important;
+    color: white;
     background-color: rgb(7, 7, 12) !important;
     border: white !important;
 }
